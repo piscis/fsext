@@ -1,0 +1,8 @@
+.DS_Store
+.*.swp
+._*
+*.log
+.git*
+docs/
+test/
+testing.js

@@ -1,0 +1,19 @@
+{
+  "name": "fsext",
+  "description": "'fsext' is a small extention for the nodejs FS module",
+  "version": "0.0.1alpha1",
+  "author": "Alexander Pirsig <apirsig@web.de>",
+  "contributors": [],
+  "dependencies": {
+  },
+  "repositories": [
+   {
+      "type": "git",
+      "url": "git://github.com/piscis/fsext.git" 
+    } 
+  ],
+  "keywords": ["fs", "file", "copy", "duplicating", "filesystem", "fs extention", "fsext"],
+  "main": "index",
+  "directories" : { "lib" : "./lib" },
+  "engines": { "node": ">= 0.3.5 < 0.5.0" }
+}
