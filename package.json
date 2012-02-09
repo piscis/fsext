@@ -1,7 +1,7 @@
 {
   "name": "fsext",
   "description": "'fsext' is a small extention for the nodejs FS module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Alexander Pirsig <apirsig@web.de>",
   "homepage": "http://github.com/piscis/fsext",
   "contributors": [
@@ -9,9 +9,12 @@
 	],
   "dependencies": {
   },
+  "devDependencies": {
+    "nodeunit": "*",
+  },
   "bugs":{
       "mail":"apirsig@web.de",
-      "web":"http://github.com/piscis/fsext/issues"
+      "url":"http://github.com/piscis/fsext/issues"
   },
   "repository": {
       "type": "git",
@@ -23,7 +26,7 @@
   ],
   "main": "index",
   "directories" : { "lib" : "./lib" },
-  "engines": { "node": ">= 0.3.5 < 0.5.0" },
+  "engines": { "node": ">= 0.3.5 < 0.7.0" },
   "licenses" : [
        { "type" : "MIT", "url" : "http://github.com/piscis/fsext/raw/master/LICENSE" }
   ]
