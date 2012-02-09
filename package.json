@@ -10,7 +10,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "nodeunit": "*",
+    "nodeunit": "*"
   },
   "bugs":{
       "mail":"apirsig@web.de",
