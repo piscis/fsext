@@ -1,5 +1,5 @@
 # FSext
-some small nodejs extentions to the node-"fs" module, that where usefull for me.
+Some small extensions to the builtin fs module for node.
 
 ## License
 (The MIT License)
