@@ -4,5 +4,4 @@
 *.log
 .git*
 docs/
-test/
 testing.js

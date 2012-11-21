@@ -1,6 +1,7 @@
-[![build status](https://secure.travis-ci.org/piscis/fsext.png)](http://travis-ci.org/piscis/fsext)
 # FSext
 Some small extensions to the builtin fs module for node.
+
+[![build status](https://secure.travis-ci.org/piscis/fsext.png)](http://travis-ci.org/piscis/fsext)
 
 ## License
 (The MIT License)

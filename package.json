@@ -7,10 +7,10 @@
   "contributors": [
 		"Alexander Pirsig <apirsig@web.de>"
 	],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "nodeunit": "*"
+    "should": "",
+    "mocha": ""
   },
   "bugs":{
       "mail":"apirsig@web.de",
@@ -21,13 +21,22 @@
       "url": "http://github.com/piscis/fsext"
 	},
   "keywords": [ 
-       "fs", "file", "copy", "duplicating", 
-       "filesystem", "fs extention", "fsext" 
+       "fs", 
+       "file", 
+       "copy", 
+       "duplicating", 
+       "filesystem", 
+       "fs extention", 
+       "fsext" 
   ],
   "main": "index",
   "directories" : { "lib" : "./lib" },
-  "engines": { "node": ">= 0.3.5 < 0.7.0" },
+  "engines": { "node": ">= 0.3.5" },
   "licenses" : [
        { "type" : "MIT", "url" : "http://github.com/piscis/fsext/raw/master/LICENSE" }
-  ]
+  ],
+  "scripts": {
+    "prepublish":"npm prune",
+    "test": "make test"
+  }
 }
