@@ -2,10 +2,10 @@
   "name": "fsext",
   "description": "'fsext' is a small extention for the nodejs FS module",
   "version": "0.0.6",
-  "author": "Alexander Pirsig <apirsig@web.de>",
+  "author": "Alexander Pirsig <self@pirsig.net>",
   "homepage": "http://github.com/piscis/fsext",
   "contributors": [
-		"Alexander Pirsig <apirsig@web.de>"
+		"Alexander Pirsig <self@pirsig.net>"
 	],
   "dependencies": {},
   "devDependencies": {
